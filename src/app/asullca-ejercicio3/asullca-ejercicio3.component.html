@@ -1,0 +1,10 @@
+<div>
+  <h2>Verificación de DNI</h2>
+  <label for="anioNacimiento">Año de Nacimiento:</label>
+  <input id="anioNacimiento" type="number" [(ngModel)]="anioNacimiento" placeholder="Ingrese su año de nacimiento">
+
+  <button (click)="verificarDNI()">Verificar</button>
+
+  <p>{{ mensaje }}</p>
+</div>
+
